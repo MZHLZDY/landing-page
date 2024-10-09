@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>landing page </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- Header -->
+     <header>
+        <a href="#" class="logo"><span>H</span>ai</a>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+     </header>
+        <section class="home">
+            <div class="home-text">
+                <h1>Mirzha Lazuardy</h1>
+                <p id="description">Perkenalkan nama saya adalah Mirzha Lazuardy Arsy, saya siswa disalah satu SMK diSurabaya</p>
+                <p id="p">gugugaga</p>
+            </div>
+            <div id="image" class="home-img">
+                <div class="img">
+                    <img src="mirzha.jpeg">
+                </div>
+            </div>
+        </section>
+
+        <div class="share">
+            <p>Kepoin sosmedku yuk :</p>
+    <div class="social">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-twitter' ></i></a>
+        <a href="#"><i class='bx bxl-github'></i></a>
+    </div>
+        </div>
+        <script>
+            //edit text
+            const desc = document.getElementById("description")
+            desc.textContent = "Halo semuanya perkenalkan nama saya Mirzha Lazuardy Arsy kelas 11 RPL 2, saya bersekolah di SMKN 1 Surabaya."
+            //remove img
+            const img = document.getElementById("image")
+            img.remove()
+            //create element
+            const paragraph = document.createElement("p")
+            p.innerText = "Saya berusia 16 tahun dan tinggi 172cm, saya suka hidup bebas tanpa aturan dan tugas apapun."
+            p.style.marginLeft = "30px"
+            p.style.justifyContent = "center"
+            p.style.fontSize = "14px"
+            p.style.color = "a1679a"
+        </script>
+</body>
+</html>
